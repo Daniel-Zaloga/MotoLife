@@ -1,16 +1,28 @@
 [
-  {
-    "id": 1,
-    "name": "Honda VFR800FI",
-    "year": 1998,
-    "description": "Спортивно-туристический мотоцикл легендарной линейки VFR.",
-    "imageUrl": "https://ibb.co"
-  },
-  {
-    "id": 2,
-    "name": "Honda ST1100",
-    "year": 1996,
-    "description": "Популярный турист с отличной тягой.",
-    "imageUrl": "https://ibb.co"
-  }
+    {
+        "id": 1,
+        "brand": "Honda",
+        "model": "VFR800",
+        "generation": [
+            {
+                "year": "1998-2001",
+                "imageURL": "https://ibb.co"
+            },
+            {
+                "year": "2014-2021",
+                "imageURL": "https://ibb.co"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "brand": "Honda",
+        "model": "ST1100",
+        "generation": [
+            {
+                "year": "1990-2002",
+                "imageURL": "https://ibb.co"
+            }
+        ]
+    }
 ]
